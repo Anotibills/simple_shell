@@ -37,16 +37,16 @@
 extern char **environ;
 
 /**
- * struct lstr - function for singly linked list
+ * struct liststr - function for singly linked list
  * @num: number to field
  * @str: string length
  * @next: pointer to the next node
  */
-typedef struct lstr
+typedef struct liststr
 {
 	int num;
 	char *str;
-	struct lstr *next;
+	struct liststr *next;
 } list_t;
 
 /**
